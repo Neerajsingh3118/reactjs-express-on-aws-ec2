@@ -16,6 +16,11 @@ phases:
 # Include only the files required for your application to run.
 artifacts:
   files:
+    - '**/*'
+  base-directory: base_dir
+  name: codepipeline-ap-south-1-722302614852Info
+  discard-paths: no
+  files:
     - public/**/*
     - src/**/*
     - package.json
